@@ -1,0 +1,27 @@
+/*Home*/
+.welcome-section{
+    background-image: url(images/images-bannner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.featured-speakers .card:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: ease-in-out 0.4s;
+    transform: translateY(-4px);
+    color: rgb(58, 173, 219);
+}
+/*Home*/
+
+/*About*/
+.img-hover{
+    overflow: hidden;
+}
+.img-hover img{
+    width: 100%;
+    transition: all .4s ease-in-out;
+}
+.img-hover img:hover{
+    transform: scale(1.2);
+}
+/*About*/
